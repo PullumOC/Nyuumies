@@ -1,0 +1,34 @@
+
+["Vanilla Additions"]
+	#
+	# Chance that a Zombie in a village siege will spawn mounting a Zombie Horse.
+	# Default: 30
+	#Range: 0 ~ 100
+	zombie_horses_siege_spawn_percentage = 30
+	#
+	# Chance that mobs in the `#rediscovered:becomes_zombie_horse_in_zombie_village` tag will become a Zombie Horse when spawned in a zombie village.
+	# Default: 70
+	#Range: 0 ~ 100
+	zombie_horses_village_replace_percentage = 70
+	#
+	# Chance mobs in the `#rediscovered:plate_armor_spawns` tag will spawn with plate armor.
+	# Default: 5
+	#Range: 0 ~ 100
+	tagged_plate_armor_percentage = 5
+
+[Tweaks]
+	#
+	# The maximum distance gears can be powered from a source. Set to -1 for unlimited distance.
+	# Default: 100
+	#Range: -1 ~ 300
+	max_gear_distance = 100
+	#
+	# Allow hatching of Red Dragons.
+	# Default: true
+	hatchable_red_dragon_egg = true
+	#
+	# Gives tamed Red Dragons stamina. This limits how far they can fly without touching the ground.
+	#A bar will be displayed above the rider's hotbar to display how much stamina the dragon has left.
+	# Default: true
+	red_dragon_stamina = true
+

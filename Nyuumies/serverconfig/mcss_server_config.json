@@ -1,0 +1,322 @@
+{
+  "guid": "22fa434a-29aa-4562-bff3-4e36dcae0bbc",
+  "serverTypeGuid": "8e3aecd7-b81b-4827-a3e2-93a701cdd3b4",
+  "name": "Saphoenyx Valley :3",
+  "description": "Saphira Community Modpack Server",
+  "creationDate": "2024-11-05T17:41:20.1573356-06:00",
+  "autostart": false,
+  "forceSaveOnStop": true,
+  "stopPrevention": "Elevated",
+  "startupMethode": "BatFile",
+  "allocatedMemory": 16384,
+  "allocatedMemorySuffix": "GB",
+  "startupLine": "java -Xms256M -Xmx[RAM]M -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -jar [SERVERTYPE.NAME].jar",
+  "startupBatFilename": "run.bat",
+  "serverFileChecksum": "f0c779fe405c4cc106e68d71551a9ed7465423529c34e7e5d6809dbc9ab80ac4",
+  "serverFileVersion": "1.20.1",
+  "javaPathOverride": "C:\\Program Files\\Java\\jdk-23\\bin\\java.exe",
+  "tasks": {
+    "scheduledTasks": [
+      {
+        "guid": "17898ee4-d27e-40b7-a27f-649564811073",
+        "name": "Backup Fixed Time (12 Hour /2)",
+        "enabled": true,
+        "playerRequirement": "None",
+        "timing": {
+          "time": "12:00:00",
+          "repeat": true
+        },
+        "job": null,
+        "jobs": [
+          {
+            "backupIdentifier": "5dbabc34-fa44-4118-84a2-b767dcf68f40",
+            "jobId": "5f57af32-d20c-40ce-a34b-a3db90d0d042",
+            "enabled": true,
+            "order": 0
+          }
+        ]
+      },
+      {
+        "guid": "0beeaa05-932f-445c-a2e5-4e9e09adbc4d",
+        "name": "Backup Fixed Time (6 Hour /1)",
+        "enabled": true,
+        "playerRequirement": "None",
+        "timing": {
+          "time": "06:00:00",
+          "repeat": true
+        },
+        "job": null,
+        "jobs": [
+          {
+            "backupIdentifier": "5dbabc34-fa44-4118-84a2-b767dcf68f40",
+            "jobId": "66293b3f-b40c-4c04-8834-4ed1e5473040",
+            "enabled": true,
+            "order": 0
+          }
+        ]
+      },
+      {
+        "guid": "e3e7e707-d7a8-4a99-8810-4d4c9b762a54",
+        "name": "Backup Fixed Time (18 Hour /3)",
+        "enabled": true,
+        "playerRequirement": "None",
+        "timing": {
+          "time": "18:00:00",
+          "repeat": true
+        },
+        "job": null,
+        "jobs": [
+          {
+            "backupIdentifier": "5dbabc34-fa44-4118-84a2-b767dcf68f40",
+            "jobId": "ec383338-76d7-4ada-ab8c-22e4ab597c33",
+            "enabled": true,
+            "order": 0
+          }
+        ]
+      },
+      {
+        "guid": "476b01c7-796e-4062-bd70-1e4fc7b51d05",
+        "name": "Backup Fixed Time (24 Hour /4)",
+        "enabled": true,
+        "playerRequirement": "None",
+        "timing": {
+          "time": "23:59:59",
+          "repeat": true
+        },
+        "job": null,
+        "jobs": [
+          {
+            "backupIdentifier": "5dbabc34-fa44-4118-84a2-b767dcf68f40",
+            "jobId": "be57f25c-ec35-4061-9f41-04aae58d28a6",
+            "enabled": true,
+            "order": 0
+          }
+        ]
+      },
+      {
+        "guid": "e0b5b542-5af5-4d7c-808f-0db7117361ed",
+        "name": "Update Warning",
+        "enabled": true,
+        "playerRequirement": "None",
+        "timing": {
+          "time": "05:40:00",
+          "repeat": true
+        },
+        "job": null,
+        "jobs": [
+          {
+            "commands": [
+              "/tellraw @a \"******Be aware, server maintenance in 20 minutes.******\""
+            ],
+            "jobId": "0b197e2a-50fb-4ee5-bcd5-da1536d996fa",
+            "enabled": true,
+            "order": 0
+          }
+        ]
+      },
+      {
+        "guid": "6d335cb9-a446-4352-a718-0e9762f284d5",
+        "name": "Update Warning 2",
+        "enabled": true,
+        "playerRequirement": "None",
+        "timing": {
+          "time": "11:40:00",
+          "repeat": true
+        },
+        "job": null,
+        "jobs": [
+          {
+            "commands": [
+              "/tellraw @a \"******Be aware, server maintenance in 20 minutes.******\""
+            ],
+            "jobId": "f3e39d47-6c49-4674-a287-d699c0f4ab38",
+            "enabled": true,
+            "order": 0
+          }
+        ]
+      },
+      {
+        "guid": "ea16fce9-e139-4a88-a39d-d6d66c890e18",
+        "name": "Update Warning 3",
+        "enabled": true,
+        "playerRequirement": "None",
+        "timing": {
+          "time": "17:40:00",
+          "repeat": true
+        },
+        "job": null,
+        "jobs": [
+          {
+            "commands": [
+              "/tellraw @a \"******Be aware, server maintenance in 20 minutes.******\""
+            ],
+            "jobId": "ab20ae6b-e2ea-47ea-82fb-6f3c98069c27",
+            "enabled": true,
+            "order": 0
+          }
+        ]
+      },
+      {
+        "guid": "60473d05-a124-49e9-9b03-151535bbbec1",
+        "name": "Update Warning 4",
+        "enabled": true,
+        "playerRequirement": "None",
+        "timing": {
+          "time": "23:39:59",
+          "repeat": true
+        },
+        "job": null,
+        "jobs": [
+          {
+            "commands": [
+              "/tellraw @a \"******Be aware, server maintenance in 20 minutes.******\""
+            ],
+            "jobId": "bf7ffb1b-4a7c-4f5d-9e6e-1773888c9a9d",
+            "enabled": true,
+            "order": 0
+          }
+        ]
+      }
+    ]
+  },
+  "backups": {
+    "backupTemplates": [
+      {
+        "identifier": "5dbabc34-fa44-4118-84a2-b767dcf68f40",
+        "templateName": "BackupServer",
+        "destination": "F:\\Apps\\MCSSBackups",
+        "compression": "High",
+        "protocol": "Disk",
+        "previousStatus": "Canceled",
+        "deleteOldBackups": true,
+        "suspendServer": true,
+        "lastRun": "2025-05-03T18:25:50.6909173-06:00",
+        "fileBlacklist": [],
+        "folderBlacklist": []
+      }
+    ],
+    "backupHistory": [
+      {
+        "name": "BackupServer",
+        "destination": "C:\\Apps\\Minecraft\\MCSS\\backups\\BackupServer_1731002460.zip",
+        "lastRun": "2024-11-07T12:02:50.4175254-06:00",
+        "status": "Completed",
+        "protocol": "Disk",
+        "logMessage": ""
+      },
+      {
+        "name": "BackupServer",
+        "destination": "C:\\Apps\\Minecraft\\MCSS\\backups\\BackupServer_1731024060.zip",
+        "lastRun": "2024-11-07T18:03:45.1201095-06:00",
+        "status": "Completed",
+        "protocol": "Disk",
+        "logMessage": ""
+      },
+      {
+        "name": "BackupServer",
+        "destination": "C:\\Apps\\Minecraft\\MCSS\\backups\\BackupServer_1731045659.zip",
+        "lastRun": "2024-11-08T00:03:38.629606-06:00",
+        "status": "Completed",
+        "protocol": "Disk",
+        "logMessage": ""
+      },
+      {
+        "name": "BackupServer",
+        "destination": "C:\\Apps\\Minecraft\\MCSS\\backups\\BackupServer_1731067500.zip",
+        "lastRun": "2024-11-08T06:07:41.2645351-06:00",
+        "status": "Completed",
+        "protocol": "Disk",
+        "logMessage": ""
+      },
+      {
+        "name": "BackupServer",
+        "destination": "C:\\Apps\\Minecraft\\MCSS\\backups\\BackupServer_1731088861.zip",
+        "lastRun": "2024-11-08T12:03:44.6554423-06:00",
+        "status": "Completed",
+        "protocol": "Disk",
+        "logMessage": ""
+      },
+      {
+        "name": "BackupServer",
+        "destination": "C:\\Apps\\Minecraft\\MCSS\\backups\\BackupServer_1731477899.zip",
+        "lastRun": "2024-11-13T00:08:27.5749679-06:00",
+        "status": "Completed",
+        "protocol": "Disk",
+        "logMessage": ""
+      },
+      {
+        "name": "BackupServer",
+        "destination": "C:\\Apps\\Minecraft\\MCSS\\backups\\BackupServer_1731567346.zip",
+        "lastRun": "2024-11-14T00:59:27.9128621-06:00",
+        "status": "Completed",
+        "protocol": "Disk",
+        "logMessage": "Failed to backup 8 files.\r\nThese files were skipped:\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\logs\\debug.log\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\logs\\latest.log\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\region\\r.2.-2.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\region\\r.2.-3.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\region\\r.2.-4.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\region\\r.3.-2.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\region\\r.3.-3.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\region\\r.3.-4.mca"
+      },
+      {
+        "name": "BackupServer",
+        "destination": "C:\\Apps\\Minecraft\\MCSS\\backups\\BackupServer_1731628860.zip",
+        "lastRun": "2024-11-14T18:04:53.3931953-06:00",
+        "status": "Completed",
+        "protocol": "Disk",
+        "logMessage": ""
+      },
+      {
+        "name": "BackupServer",
+        "destination": "C:\\Apps\\Minecraft\\MCSS\\backups\\BackupServer_1731823259.zip",
+        "lastRun": "2024-11-17T00:06:25.2730486-06:00",
+        "status": "Completed",
+        "protocol": "Disk",
+        "logMessage": ""
+      },
+      {
+        "name": "BackupServer",
+        "destination": "C:\\Apps\\Minecraft\\MCSS\\backups\\BackupServer_1732168808.zip",
+        "lastRun": "2024-11-21T00:07:30.8620089-06:00",
+        "status": "Completed",
+        "protocol": "Disk",
+        "logMessage": ""
+      },
+      {
+        "name": "BackupServer",
+        "destination": "C:\\Apps\\Minecraft\\MCSS\\backups\\BackupServer_1732428000.zip",
+        "lastRun": "2024-11-24T00:09:05.5923877-06:00",
+        "status": "Completed",
+        "protocol": "Disk",
+        "logMessage": ""
+      },
+      {
+        "name": "BackupServer",
+        "destination": "C:\\Apps\\Minecraft\\MCSS\\backups\\BackupServer_1740873600.zip",
+        "lastRun": "2025-03-01T18:11:59.3526696-06:00",
+        "status": "Completed",
+        "protocol": "Disk",
+        "logMessage": ""
+      },
+      {
+        "name": "BackupServer",
+        "destination": "C:\\Apps\\Minecraft\\MCSS\\backups\\BackupServer_1743033600.zip",
+        "lastRun": "2025-03-26T18:11:34.2523183-06:00",
+        "status": "Completed",
+        "protocol": "Disk",
+        "logMessage": ""
+      },
+      {
+        "name": "BackupServer",
+        "destination": "C:\\Apps\\Minecraft\\MCSS\\backups\\BackupServer_1743984000.zip",
+        "lastRun": "2025-04-06T18:46:37.4805544-06:00",
+        "status": "Completed",
+        "protocol": "Disk",
+        "logMessage": ""
+      },
+      {
+        "name": "BackupServer",
+        "destination": "F:\\Apps\\MCSSBackups\\BackupServer_1746208860.zip",
+        "lastRun": "2025-05-02T12:43:11.3585444-06:00",
+        "status": "Completed",
+        "protocol": "Disk",
+        "logMessage": "Failed to backup 59 files.\r\nThese files were skipped:\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\dimensions\\macabre\\the_pit\\entities\\r.7.47.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\dimensions\\macabre\\the_pit\\entities\\r.8.47.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\dimensions\\macabre\\the_pit\\poi\\r.7.47.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\dimensions\\macabre\\the_pit\\poi\\r.7.48.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\dimensions\\macabre\\the_pit\\poi\\r.8.47.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\dimensions\\macabre\\the_pit\\poi\\r.8.48.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\dimensions\\macabre\\the_pit\\region\\r.7.46.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\dimensions\\macabre\\the_pit\\region\\r.7.47.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\dimensions\\macabre\\the_pit\\region\\r.7.48.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\dimensions\\macabre\\the_pit\\region\\r.8.46.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\dimensions\\macabre\\the_pit\\region\\r.8.47.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\dimensions\\macabre\\the_pit\\region\\r.8.48.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\entities\\r.-1.0.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\entities\\r.-1.1.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\entities\\r.-1.2.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\entities\\r.-2.0.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\entities\\r.-2.1.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\entities\\r.-2.2.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\entities\\r.2.0.mca\r\nC:\\Apps\\Minecraft\\MCSS\\servers\\SaphnyaSMP\\SaphNyaLevel\\entities\\r.3.0.mca\r\n... and 39 other entries"
+      }
+    ]
+  },
+  "subServers": []
+}
