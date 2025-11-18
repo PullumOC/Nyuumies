@@ -1,0 +1,184 @@
+
+[origins]
+
+	[origins."animal_origins:sheep"]
+		enabled = true
+		"animal_origins:vegetarian" = true
+		"animal_origins:half_block_tall" = true
+		"animal_origins:half_block_wide" = true
+		"animal_origins:featherweight" = true
+
+	[origins."animal_origins:cat"]
+		enabled = true
+		"animal_origins:quarter_block_tall" = true
+		"animal_origins:quarter_block_wide" = true
+		"animal_origins:carnivore" = true
+		"animal_origins:night_vision" = true
+		"animal_origins:three_hearts" = true
+		"animal_origins:stronger_burn" = true
+		"animal_origins:transparent_crouch" = true
+		"origins:fall_immunity" = true
+		"origins:launch_into_air" = true
+
+	[origins."origins:enderian"]
+		enabled = true
+		"origins:throw_ender_pearl" = true
+		"origins:water_vulnerability" = true
+		"origins:pumpkin_hate" = true
+		"origins:extra_reach" = true
+		"origins:ender_particles" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins:human"]
+		enabled = true
+
+	[origins."origins:feline"]
+		enabled = true
+		"origins:fall_immunity" = true
+		"origins:sprint_jump" = true
+		"origins:velvet_paws" = true
+		"origins:nine_lives" = true
+		"origins:weak_arms" = true
+		"origins:scare_creepers" = true
+		"origins:cat_vision" = true
+
+	[origins."animal_origins:giraffe"]
+		enabled = true
+		"animal_origins:vegetarian" = true
+		"animal_origins:fifteen_hearts" = true
+		"animal_origins:two_block_tall" = true
+		"origins:no_shield" = true
+		"origins:light_armor" = true
+
+	[origins."origins:elytrian"]
+		enabled = true
+		"origins:elytra" = true
+		"origins:launch_into_air" = true
+		"origins:aerial_combatant" = true
+		"origins:light_armor" = true
+		"origins:claustrophobia" = true
+		"origins:more_kinetic_damage" = true
+
+	[origins."animal_origins:shark"]
+		enabled = true
+		"animal_origins:fifteen_hearts" = true
+		"animal_origins:attack_damage" = true
+		"animal_origins:carnivore" = true
+		"origins:water_breathing" = true
+
+	[origins."origins:shulk"]
+		enabled = true
+		"origins:shulker_inventory" = true
+		"origins:natural_armor" = true
+		"origins:strong_arms" = true
+		"origins:strong_arms_break_speed" = true
+		"origins:no_shield" = true
+		"origins:more_exhaustion" = true
+
+	[origins."animal_origins:grasshopper"]
+		enabled = true
+		"animal_origins:quarter_block_tall" = true
+		"animal_origins:quarter_block_wide" = true
+		"animal_origins:higher_motion" = true
+		"animal_origins:vegetarian" = true
+		"animal_origins:five_hearts" = true
+
+	[origins."origins:merling"]
+		enabled = true
+		"origins:water_breathing" = true
+		"origins:water_vision" = true
+		"origins:aqua_affinity" = true
+		"origins:swim_speed" = true
+		"origins:like_water" = true
+		"origins:aquatic" = true
+		"origins:conduit_power_on_land" = true
+		"origins:air_from_potions" = true
+		"mermod:fabulous_fins" = true
+
+	[origins."origins:phantom"]
+		enabled = true
+		"origins:phantomize" = true
+		"origins:translucent" = true
+		"origins:phasing" = true
+		"origins:invisibility" = true
+		"origins:burn_in_daylight" = true
+		"origins:hunger_over_time" = true
+		"origins:fragile" = true
+		"origins:phantomize_overlay" = true
+
+	[origins."origins:arachnid"]
+		enabled = true
+		"origins:climbing" = true
+		"origins:master_of_webs" = true
+		"origins:carnivore" = true
+		"origins:fragile" = true
+		"origins:arthropod" = true
+
+	[origins."origins:blazeborn"]
+		enabled = true
+		"origins:fire_immunity" = true
+		"origins:nether_spawn" = true
+		"origins:burning_wrath" = true
+		"origins:hotblooded" = true
+		"origins:water_vulnerability" = true
+		"origins:flame_particles" = true
+		"origins:damage_from_snowballs" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins:avian"]
+		enabled = true
+		"origins:slow_falling" = true
+		"origins:fresh_air" = true
+		"origins:like_air" = true
+		"origins:tailwind" = true
+		"origins:lay_eggs" = true
+		"origins:vegetarian" = true
+
+	[origins."animal_origins:duck"]
+		enabled = true
+		"animal_origins:featherweight" = true
+		"animal_origins:walk_on_water" = true
+		"animal_origins:vegetarian" = true
+		"animal_origins:half_block_tall" = true
+		"animal_origins:half_block_wide" = true
+		"animal_origins:seven_hearts" = true
+		"animal_origins:quack" = true
+		"animal_origins:quack_sound" = true
+
+	[origins."animal_origins:lizard"]
+		enabled = true
+		"animal_origins:lizard_climb" = true
+		"animal_origins:vegetarian" = true
+		"animal_origins:heal_in_daylight" = true
+
+	[origins."animal_origins:gecko"]
+		enabled = true
+		"animal_origins:half_block_tall" = true
+		"animal_origins:half_block_wide" = true
+		"animal_origins:transparent" = true
+		"animal_origins:seven_hearts" = true
+
+	[origins."animal_origins:red_panda"]
+		enabled = true
+		"animal_origins:half_block_tall" = true
+		"animal_origins:half_block_wide" = true
+		"animal_origins:night_vision" = true
+		"animal_origins:carnivore" = true
+		"animal_origins:red_panda_strong" = true
+		"origins:climbing" = true
+
+	[origins."neko:neko_girl"]
+		enabled = true
+		"neko:catattributes" = true
+		"neko:catthings" = true
+		"neko:nekosize" = true
+		"neko:catlike" = true
+		"origins:scare_creepers" = true
+		"neko:catfood" = true
+		"neko:milky" = true
+		"neko:nattyenemies" = true
+		"neko:heat" = true
+		"neko:wet" = true
+		"neko:primary" = true
+		"neko:his" = true
+
